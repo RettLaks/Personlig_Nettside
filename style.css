@@ -14,12 +14,22 @@ header {
     justify-content: space-between;
     padding: 15px;
 }
-footer {
+footer:not(.fast) {
     padding: 10px 30px;
     display: flex;
     justify-content: space-around;
     background-color: #2b7fff;
     padding: 15px;
+}
+.fast {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2b7fff;
+    padding: 15px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 main {
     flex: 1;
