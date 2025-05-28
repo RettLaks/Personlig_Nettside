@@ -33,7 +33,7 @@ main {
 h1, h2 {
     padding: 10px 30px;
 }
-a {
+a:not(.andy){
     text-decoration: none;
     background-color: #ffb900;
     padding: 10px;
@@ -42,7 +42,7 @@ a {
     border-radius: 10px;
     color: #262626;
 }
-a:hover {
+a:not(.andy):hover {
     background-color: #fee685;
 }
 .bilde{
@@ -61,4 +61,7 @@ img {
 }
 .main img {
     padding: 30px;
+}
+.andy {
+    text-decoration: none;
 }
