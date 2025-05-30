@@ -31,11 +31,12 @@ footer:not(.fast) {
     position: fixed;
     bottom: 0;
 }
-main {
+body{
     flex: 1;
 }
 .mainText {
     padding: 20px 30px;
+    width: 60%;
 }
 .mainText h3, .mainText h2 {
     padding: 10px 0;
@@ -74,4 +75,15 @@ img {
 }
 .andy {
     text-decoration: none;
+}
+.stolt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15% 45px;
+}
+.border-rad {
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.25);
 }
