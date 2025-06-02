@@ -3,29 +3,30 @@
     padding: 0;
     margin: 0;
     font-family: 'Nunito Sans', Courier, monospace;
+    color: black;
 }
 body {
-    background-color: #ccc;
+    background-color: #e0e2db;
 }
 header {
     padding: 10px 30px;
-    background-color: #2b7fff;
+    background-color: #191716;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 15px;
 }
 footer:not(.fast) {
     padding: 10px 30px;
     display: flex;
     justify-content: space-around;
-    background-color: #2b7fff;
+    background-color: #191716;
     padding: 15px;
 }
 .fast {
     padding: 10px 30px;
     display: flex;
     justify-content: space-around;
-    background-color: #2b7fff;
+    background-color: #191716;
     padding: 15px;
     width: 100%;
     position: fixed;
@@ -33,6 +34,11 @@ footer:not(.fast) {
 }
 body{
     flex: 1;
+}
+.nav1, .nav2{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
 }
 .mainText {
     padding: 20px 30px;
@@ -43,18 +49,20 @@ body{
 }
 h1, h2 {
     padding: 10px 30px;
+    padding-left: 0;
 }
 a:not(.andy){
     text-decoration: none;
-    background-color: #ffb900;
+    background-color: #45556c;
     padding: 10px;
     font-size: 1rem;
     transition: 0.3s ease-in-out;
     border-radius: 10px;
-    color: #262626;
+    color: #cfe0c3;
 }
 a:not(.andy):hover {
-    background-color: #fee685;
+    background-color: #90a1b9;
+    color: black;
 }
 .bilde{
     padding: 20px 0;
@@ -75,6 +83,7 @@ img {
 }
 .andy {
     text-decoration: none;
+    color: darkblue;
 }
 .stolt {
     display: flex;
@@ -86,4 +95,52 @@ img {
 .border-rad {
     border-radius: 10px;
     box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.25);
+}
+.tekstBilde {
+    display: flex;
+}
+.tekstBilde img {
+    margin-top: 25px;
+}
+@media (max-width: 1200px) {
+    .tekstBilde {
+        flex-direction: column;
+    }
+}
+@media (max-width: 930px) {
+    .nav1, .nav2{
+        flex-direction: column; 
+    }
+    .nav1 .teknoNav, .nav2 .YFFNav {
+        padding: 0 0 30px 0 ;
+    }
+
+}
+@media (max-width: 780px) {
+    video {
+        width: 430px;
+    }
+}
+@media (max-width: 630px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .YFFNav {
+        margin: 30px 0 0 0;
+    }
+    .nav1, .nav2 {
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    img {
+        width: 200px;
+    }
+    video {
+        width: 250px;
+    }
+    h1 {
+        font-size: 30px;
+    }
 }
