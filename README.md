@@ -39,16 +39,6 @@ Se nederst
 ## Løsninger
 - Lage en egen class der footer alltid er på bunn, og en der den er dynamisk
 
-## Kode
-
-```
-HTML 
-- https://www.w3schools.com/html/
-
-CSS 
-- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-
-```
 
 ## Kontakt
 - GitHub [Meg](https://github.com/RettLaks)
