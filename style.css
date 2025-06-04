@@ -72,9 +72,6 @@ a:not(.andy):hover {
 img {
     width: 400px;
 }
-.sykkel{
-    width: 250px;
-}
 .main {
     display: flex;
 }
@@ -101,6 +98,9 @@ img {
 }
 .tekstBilde img {
     margin-top: 25px;
+}
+.start {
+    padding: 10px 30px;
 }
 @media (max-width: 1200px) {
     .tekstBilde {
