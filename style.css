@@ -69,7 +69,7 @@ a:not(.andy):hover {
     display: flex;
     justify-content: center;
 }
-img {
+img:not(.sykkel) {
     width: 400px;
 }
 .main {
@@ -102,9 +102,17 @@ img {
 .start {
     padding: 10px 30px;
 }
+.sykkel {
+    width: 500px;
+}
 @media (max-width: 1200px) {
     .tekstBilde {
         flex-direction: column;
+    }
+}
+@media (max-width: 1024px) {
+    .mainText {
+        width: 90%;
     }
 }
 @media (max-width: 930px) {
